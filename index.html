@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>country Guide</title>
+  </head>
+  <body>
+    <input type="text" placeholder="Enter the Country's name" id="inputText" />
+    <button type="submit" id="searchBtn" onclick="guessCountry()">
+      Search
+    </button>
+    <div class="resultContainer">
+      <p id="countryName"></p>
+      <p id="countryCapital"></p>
+      <p id="countryPopulation"></p>
+      <p id="countryLanguage"></p>
+      <p id="text"></p>
+      <img src="" alt="country_flag" id="flag" style="display: none ;width: 200px ;height:200;">
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
