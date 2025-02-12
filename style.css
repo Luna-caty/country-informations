@@ -1,13 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3d64e6;
+}
+
 ::placeholder
 {
     font-family: "Montserrat", serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
 }
 input
 {
     width: 275px;
     height: 25px;
+    border:none;
+    border-bottom: 2px solid #3d64e6;
+    outline: none;
+    color: #222a43;
 }
 
 button
@@ -16,15 +29,34 @@ button
     font-weight: 400;
     border-radius: 30px;
     font-size: 20px;
-    width: 85px;
+    width: 90px;  
+    background-color: #3d64e6;
+    color: white;
+    border-color: rgba(10, 10, 10, 0.267);
+}
+.buttonDiv{
+    padding-left: 40px;
 }
 #countryName,#countryCapital,#countryPopulation,#countryLanguage
 {
-    font-family: "Montserrat", serif;    
+    font-family: "Montserrat", serif;  
+    padding-bottom: 20px;  
 }
 #flag
 {
-    padding-top: 40px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.inputContainer
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    width: 450px;
+    box-shadow: 8px 8px 8px rgba(56, 56, 56, 0.5);
+    border-radius: 7px;
 }
 .resultContainer
 {
@@ -32,11 +64,39 @@ button
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 450px;
+    margin-top: 40px;
+    border-radius: 10px;
+    
 }
-.inputContainer
-{ 
+.test
+{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #countryInfo
+{
+    font-family: "Montserrat", serif; 
+    font-weight: bold;
+    display: none;
+} */
