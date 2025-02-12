@@ -1,0 +1,42 @@
+::placeholder
+{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+input
+{
+    width: 275px;
+    height: 25px;
+}
+
+button
+{
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 85px;
+}
+#countryName,#countryCapital,#countryPopulation,#countryLanguage
+{
+    font-family: "Montserrat", serif;    
+}
+#flag
+{
+    padding-top: 40px;
+}
+.resultContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainer
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

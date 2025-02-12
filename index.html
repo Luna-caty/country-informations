@@ -4,19 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>country Guide</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <input type="text" placeholder="Enter the Country's name" id="inputText" />
-    <button type="submit" id="searchBtn" onclick="guessCountry()">
+    <div class="inputContainer">
+     <input type="text" placeholder="Enter the Country's name" id="inputText" />
+     <button type="submit" id="searchBtn" onclick="guessCountry()">
       Search
-    </button>
+     </button>
+    </div>
     <div class="resultContainer">
-      <p id="countryName"></p>
-      <p id="countryCapital"></p>
-      <p id="countryPopulation"></p>
-      <p id="countryLanguage"></p>
-      <p id="text"></p>
-      <img src="" alt="country_flag" id="flag" style="display: none ;width: 200px ;height:200;">
+      <img
+        src=""
+        alt="country_flag"
+        id="flag"
+        style="display: none; width: 200px; height: 200"
+      />
+      <p> Name:
+        <span id="countryName"></span>
+      </p>
+      <p > Capital :
+        <span id="countryCapital"></span>
+      </p>
+      
+      <p>
+        Population :
+        <span id="countryPopulation" >
+        </span>
+      </p>
+
+      <p > Official language
+        <span id="countryLanguage">
+        </span>
+      </p>
     </div>
 
     <script src="app.js"></script>
